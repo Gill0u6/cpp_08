@@ -6,7 +6,7 @@
 /*   By: agilles <agilles@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/26 12:12:47 by agilles           #+#    #+#             */
-/*   Updated: 2025/06/26 12:24:54 by agilles          ###   ########.fr       */
+/*   Updated: 2025/06/26 12:26:58 by agilles          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 int main()
 {
-	std::cout << "\033[33m" << "Test vector container\n"<< "\033[0m";
+	std::cout << "\033[32m" << "Test vector container\n"<< "\033[0m";
 	std::vector<int> v;
 
 	for (int i = 0; i < 10; i++)
@@ -32,7 +32,7 @@ int main()
 	}
 
 
-	std::cout << "\033[33m" << "Test list container\n"<< "\033[0m";
+	std::cout << "\033[32m" << "Test list container\n"<< "\033[0m";
 	std::list<int> l;
 
 	for (int i = 0; i < 20; i++)
