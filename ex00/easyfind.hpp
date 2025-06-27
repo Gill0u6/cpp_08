@@ -6,7 +6,7 @@
 /*   By: agilles <agilles@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/26 12:12:45 by agilles           #+#    #+#             */
-/*   Updated: 2025/06/26 12:22:13 by agilles          ###   ########.fr       */
+/*   Updated: 2025/06/27 10:03:09 by agilles          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,6 @@
 
 #include <iostream>
 #include <list>
-#include <deque>
 
  template <typename T>
 typename T::iterator easyfind(T &container, int to_find)
