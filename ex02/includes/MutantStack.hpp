@@ -6,7 +6,7 @@
 /*   By: agilles <agilles@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/27 13:30:32 by agilles           #+#    #+#             */
-/*   Updated: 2025/06/27 13:42:07 by agilles          ###   ########.fr       */
+/*   Updated: 2025/06/27 13:57:04 by agilles          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,9 +20,9 @@ class MutantStack : public std::stack<T>
 {
 	public:
 		MutantStack();
-		MutantStack(MutantStack const &other);
+		MutantStack(MutantStack const &cp);
 
-		MutantStack &operator=(MutantStack const &other);
+		MutantStack &operator=(MutantStack const &cp);
 
 		~MutantStack();
 
