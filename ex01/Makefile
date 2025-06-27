@@ -1,6 +1,6 @@
 CC = c++
 FLAGS = -Wall -Wextra -Werror -std=c++98
-NAME = EasyFind
+NAME = Span
 SRC =	main.cpp\
 		src/Span.cpp
 
